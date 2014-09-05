@@ -43,7 +43,6 @@
 		left: 0;
 		padding: 5px 0;
 		margin-right: -10px;
-		margin-bottom: 0;
 	  }
 	  .social-top li{
 		display: inline-block;
@@ -55,4 +54,16 @@
 	.social-top li{
 		margin: 10px 3%;
 	}
+}
+
+.fa-file:before {
+  content: "\f15c"
+}
+
+.fa-folder:before {
+  content: "\f07b"
+}
+
+.small {
+	font-size: 15px;
 }
