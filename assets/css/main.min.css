@@ -29,6 +29,7 @@
 	.feature .header-title h2 {
 		width: 75%;
 		margin: 0 auto;
+		margin-bottom: 0;
 	}
 }
 
@@ -43,6 +44,7 @@
 		left: 0;
 		padding: 5px 0;
 		margin-right: -10px;
+		margin-bottom: 0;
 	  }
 	  .social-top li{
 		display: inline-block;
