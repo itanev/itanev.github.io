@@ -67,8 +67,7 @@ This is the structure according to the [official documentation](http://jekyllrb.
 |----
 | index.html	 | Every file with a [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/) section, it will be transformed by Jekyll. |
 | and other      | The same will happen for any ***.html***, ***.markdown***, ***.md***, or ***.textile*** file in your site’s |
-| HTML, Markdown,| root directory or directories not listed above. |
-| Textile files  |												   |
+| HTML, Markdown, Textile files | root directory or directories not listed above. |
 |----
 | Other Files/Folders | Every other directory and file except for those listed above—such as ***css*** and ***images*** folders, ***favicon.ico*** files, and so forth—will be copied verbatim to the generated site. |
 |----
