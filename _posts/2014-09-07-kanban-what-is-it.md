@@ -39,7 +39,7 @@ In this case you have several options:
 
 * You could set some kind of deadline on **Test**, but this is not a good idea because when the team or member(s) is overwhelmed with work and the deadline becomes impossible they will begin to cut corners, this will hit the quality of the product, and again your customers and employees are unhappy.
 
-* You could restrict the WIP (work in progress) items using a buffer for each stage. That means new work items won't be started until a place in the buffer is free. To not have parts of your team or teams standing by, they could create solutions for the bottleneck part. In our example the **Development** could work on test automation so the **Test** could use it to get work done more quickly.
+* You could use the Kanban way which is to restrict the WIP (work in progress) items by using a buffer for each stage. That means new work items won't be started until a place in the buffer is free. To not have parts of your team or teams standing by, they could create solutions for the bottleneck part. In our example the **Development** could work on test automation so the **Test** could use it to get work done more quickly.
 
 ##Kanban Benefits
 
