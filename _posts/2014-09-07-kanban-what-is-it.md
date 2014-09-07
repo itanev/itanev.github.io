@@ -37,7 +37,7 @@ In this case you have several options:
 
 * One of them is to let the **Development** continue to get work items done and to pile them up for **Test**. This will result in overwhelming the **Test** that will hit its performance even more because of the drop of motivation that will occur. This will result in slowing down the entire work process because *"one team works as fast as its slowest part"*. Because of this there will be a delay on releasing new features, that will leave your customers unhappy.
 
-You could set some kind of deadline on **Test**, but this is not a good idea because when the team or member(s) is overwhelmed with work and the deadline becomes impossible they will begin to cut corners, this will hit the quality of the product, and again your customers and employees are unhappy.
+* You could set some kind of deadline on **Test**, but this is not a good idea because when the team or member(s) is overwhelmed with work and the deadline becomes impossible they will begin to cut corners, this will hit the quality of the product, and again your customers and employees are unhappy.
 
 * You could restrict the WIP (work in progress) items using a buffer for each stage. That means new work items won't be started until a place in the buffer is free. To not have parts of your team or teams standing by, they could create solutions for the bottleneck part. In our example the **Development** could work on test automation so the **Test** could use it to get work done more quickly.
 
