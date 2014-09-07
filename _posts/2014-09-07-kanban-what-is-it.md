@@ -22,7 +22,7 @@ The Kanban method encourages small continuous, incremental and evolutionary chan
 
 In Japanese, the word “Kan” means "visual" and "ban" means "card," so Kanban refers to visual cards. One of the classical visualizations of the Kanban process is with ***Kanban board*** on which the work items are mapped using ***cards***.
 
-![Kanban board]({{site.url}}/images/kanban-board-1.jpg)
+![Kanban board]({{site.url}}/images/kanban-board-1.png)
 
 The Kanban process is all about *finishing* and restrict the *starting*. When something is finished, the next highest thing from the backlog is pulled into play. You could think of Kanban process like a production pipeline. Through the pipeline the parts (work items) go through several stages that change them to the desired end product.
 
