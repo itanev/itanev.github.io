@@ -22,9 +22,9 @@ There are several different approaches you could use to implement **Unit Of Work
 
 Another way would be to use states, for example. In *.NET* this is the easiest approach, because you have an **Object State Manager** that makes this kind of implementation very straightforward.
 
-You could create *copies* of the objects on *register* and compare them with the originals at *commit*.
+Another strategy would be to create *copies* of the objects on *register* and compare them with the originals at *commit*.
 
-I'll stop here and go the example part.
+I'll stop here and go to the example part.
 
 So what will we need for the PHP implementation.
 	
