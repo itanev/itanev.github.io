@@ -96,7 +96,7 @@ The actual implementation of the [Identity Map](#identity-map) will be disgust i
 	
 ###The actual Unit Of Work class - Basic implementation
 
-So lets get to the point. It is very straightforward implementation. I think it speaks for itself, but let's clarify a few things - you would need to have some kind of **Database Manager** implemented, that will handle Database connections, transactions, operations and saving the changes and the [Identity Map](#identity-map) implementation is in the next section.
+So lets get to the point. It is very straightforward implementation. I think it speaks for itself, but let's clarify a few things - you would need to have some kind of **Database Manager** implemented, that will handle Database connections, transactions, operations and saving the changes. The other thing that could be unclear is the [Identity Map](#identity-map), its implementation is in the next section.
 	
 {% highlight php %}
 <?php
