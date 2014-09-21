@@ -267,7 +267,7 @@ Here is one very straightforward implementation of the **IdentityMap**.
 	
 ##Priority of the object regarding the current operation
 
-There could be cases in which you want, for example to insert one object before another. This could occur if the object have some kind of relation to each other in the *Database* (One to Many for example).
+There could be cases in which you want, for example to insert one object before another. This could occur if the objects have some kind of relation to each other in the *Database* (One to Many for example).
 
 You could solve this by using ***PriorityQueues*** instead of **Arrays** for the elements of **$objects** container in our *Unit Of Work* class. You will also need to pass priority as parameter to the **register** method.
 
