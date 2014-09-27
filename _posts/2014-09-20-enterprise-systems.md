@@ -12,7 +12,7 @@ share: true
 
 An enterprise architecture (EA) is a conceptual tool that assists organizations with the understanding of their own structure and the way they work. It provides a map of the enterprise and is a route planner for business and technology change.
 
-#Different kinds of Enterprise Applications
+### Different kinds of Enterprise Applications
 
 * Accounting software
 	**Accounting software** is an application software that deals with accounting transactions.It is typically composed of various modules, different sections dealing with particular areas of accounting.
@@ -39,7 +39,7 @@ An enterprise architecture (EA) is a conceptual tool that assists organizations 
 * Enterprise asset management (EAM)
 	**Enterprise asset management** means the whole life optimal management of the physical assets of an organization to maximize value.
 
-#Perspectives
+### Perspectives
 
 When we choose Enterprise System Architecture we first need to clarify what is the purpose of the system. The easiest way to do that is to look at the desired end result from different perspectives:
 

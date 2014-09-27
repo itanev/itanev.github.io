@@ -12,13 +12,13 @@ share: true
 
 Kanban was developed by Taiichi Ohno, at Toyota, as a system to improve and maintain a high level of production. Nowadays you could see Kanban being used in the software industry as well. It's a technique that could be combined with an existing software development process. Here I will emphasized on the **combined** term,	because a common misconception is that Kanban is substitute of Scrum, but it isn't. Actually it is not a process of its own but a improvement to existing one. So it could be combined with any development process that could be adjusted to work with its methodology.
 
-##Kanban main purpose
+### Kanban main purpose
 
 The main purpose of Kanban is to provide visualization of the workflow. It could be very helpful to visualize your projects workflow. This leads to finding flaws in the early stages of development and proper understanding of changes planned and helps to implement them accordingly.
 
 The Kanban method encourages small continuous, incremental and evolutionary changes that stick. When teams have a shared understanding of theories about work, workflow, process and risk, they are more likely to be able to build a shared comprehension of a problem and suggest improvements which can be agreed to by consensus. The Kanban method suggests using a scientific approach to implement continuous, incremental and evolutionary changes.
 
-##How does it work ?
+### How does it work ?
 
 In Japanese, the word “Kan” means "visual" and "ban" means "card," so Kanban refers to visual cards. One of the classical visualizations of the Kanban process is with ***Kanban board*** on which the work items are mapped using ***cards***.
 
@@ -30,7 +30,7 @@ The most important part of the Kanban process is the limiting of ***WIP (Work In
 
 The limiting of WIP is important because it helps you to resolve bottlenecks in the work process. 
 
-###For example:
+#### For example:
 Imagine the **Test** is the bottleneck, if the **Development** gets the work items done more quickly than the **Test** can finish testing and getting them to **Deploy** stage, a pile of work will begin to form for **Test**. 
 
 In this case you have several options:
@@ -41,7 +41,7 @@ In this case you have several options:
 
 * You could use the Kanban way which is to restrict the WIP (work in progress) items by using a buffer for each stage. That means new work items won't be started until a place in the buffer is free. To not have parts of your team or teams standing by, they could create solutions for the bottleneck part. In our example the **Development** could work on test automation so the **Test** could use it to get work done more quickly.
 
-##Kanban Benefits
+### Kanban Benefits
 
 * Kanban encourages frequent releases which create a constant feedback loop. 
 * Rapid feedback loops improve the chances of more motivated, empowered and higher-performing team members.
@@ -51,7 +51,7 @@ In this case you have several options:
 * Requires fewer organization / room set-up changes to get started.
 * Reducing waste and removing activities that don’t add value to the team/department/organization.
 
-##Kanban Disadvantages
+### Kanban Disadvantages
 
 * Utilising the Kanban system results in less opportunity to work ahead of schedule placing performance pressures on staff.
 * Keeping the Kanban resized - demand changes can be slow and difficult to manage.

@@ -10,11 +10,9 @@ comments: true
 share: true
 ---
 
-# About Jekyll
-
 Jekyll is free, simple, blog-aware, static site generator written in Ruby by GitHub's co-founder - Tom Preston-Werner, it is perfect for small projects but not so good for big ones. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server.
 
-# But what exactly is Jekyll ?
+### But what exactly is Jekyll ?
 
 Jekyll is **not Blogging Software** it is a **parsing engine**. It is the engine behind **GitHub Pages**, which you can use to host sites right from your GitHub repositories.
 
@@ -24,11 +22,11 @@ The most important thing to realize about Jekyll is that it creates a static rep
 
 Therefore if you like the **KISS** (Keep it simple, stupid) principle and you prefer the command-line over an UI, then give Jekyll a try.
 
-# Jekyll structure
+### Jekyll structure
 	
 Because Jekyll is a parsing engine it has very strict folder structure.	
 
-## Basic structure
+#### Basic structure
 		
 This is the structure according to the [official documentation](http://jekyllrb.com/docs/structure/).
 
@@ -77,33 +75,33 @@ If you plan to deploy your site on ***GitHub Pages*** you don't need _site direc
 		
 [Here is one very simple guide of how to deploy on GitHub Pages](https://pages.github.com)
 
-## Basic Components
+#### Basic Components
 	
-### Posts
+##### Posts
 			
 Posts are created by properly formatting a file and placing it the ***_posts*** folder. A post must have a valid filename in the form ***YEAR-MONTH-DATE-title.MARKUP***. Additionally, each file must have [YAML Front-Matter](http://jekyllrb.com/docs/frontmatter/) prepended to its content.
 		
-### Pages
+##### Pages
 	
 Pages are similar to posts. They are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do not start with an underscore. Pages do not compute categories nor tags so defining them will have no effect.
 	
-### Drafts
+##### Drafts
 	 	
 Drafts are posts without a date. They’re posts you’re still working on and don’t want to publish yet. They are placed in the ***_drafts*** folder in your site's root.
 	 	
-### Tags 
+##### Tags 
 	 	
 Posts can have tags associated with them as part of their meta-data. Tags may be placed on posts by providing them in the post's YAML front matter. You have access to the post-specific tags in the templates. These tags also get added to the sitewide collection.
 	
-### Categories
+##### Categories
 		
 Posts may be categorized by providing one or more categories in the YAML front matter. Categories offer more significance over tags in that they can be reflected in the URL path to the given post
 
-# Jekyll setup
+### Jekyll setup
 
 Jekyll comes as a Ruby gem so all you need to install it are just [Ruby](https://www.ruby-lang.org/en/downloads/), [RubyGems](http://rubygems.org/pages/download) and some operation system, it works well everywhere. Jekyll comes with a built-in development server that will allow you to preview your site.
 
-## Install
+#### Install
 
 All you need to do to install Jekyll is this command.
 
@@ -115,7 +113,7 @@ All of Jekyll’s gem dependencies are automatically installed by the above comm
 
 [More about Jekyll installation](http://jekyllrb.com/docs/installation/)
 
-# Basic commands
+### Basic commands
 
 {% highlight css %}
 jekyll build
@@ -129,7 +127,7 @@ jekyll serve
 
 With this command you start the built-in development server that will allow you to preview what the generated site will look like in your browser locally and it is runned at  http://localhost:4000
 
-### The watch switch
+##### The watch switch
 		
 You could call any of the above commands with the --watch switch. With it your changes will be regenerated automatically which means you will be able to see your changes without having to call the command again, except if you've changed the _config.yml file.
 
@@ -139,7 +137,7 @@ jekyll build --watch
 jekyll serve --watch
 {% endhighlight %}
 
-### The drafts switch
+##### The drafts switch
 		
 To preview your site with drafts, simply run ***jekyll serve*** or ***jekyll build*** with the ***--drafts*** switch. Each will be assigned the value modification time of the draft file for its date, and thus you will see currently edited drafts as the latest posts.
 

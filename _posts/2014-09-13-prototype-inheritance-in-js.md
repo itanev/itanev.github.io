@@ -12,7 +12,7 @@ share: true
 
 Although **Prototype Inheritance** is considered one of JavaScript weaknesses it is essential for every JavaScript developer to understand it, because JS is a language in which everything is an object and every object has an link to another object called **Prototype** that prototype object has prototype of its own and so on, until a **null** is reached. Null, by definition does not have a prototype and it is considered a **root** for the **prototype chain**.
 
-##Objects in JavaScript
+### Objects in JavaScript
 
 In JS **everything is an Object** even **null**. The null object is the root of the system prototype chain that is embedded in the language. It is the root because by definition null does not have a prototype therefore it does not have a parent.
 Lets show a few examples that will make the prototype chain more clear.
@@ -53,7 +53,7 @@ And the last one - *tellName* is a *Function*. Function is not a data type in JS
 
 So lets examine this different behaviour in the next section.
 
-##Inheritance based on the Prototype Chain
+### Inheritance based on the Prototype Chain
 
 So lets get to the point of this article. How to do a Prototype Inheritance in JS and what are its peculiarities ?
 
@@ -118,7 +118,7 @@ pesho.tellName(); // outputs 'Hi, my name is Pesho'
 
 *this* always points to the current object. So in the first call of *tellName* in our example we do not have a name property in *pesho* so JS looks up to the prototype chain and finds the *name* property in *human*, that's why the output is *'Hi, my name is Human'*. In the second call we already have a *name* property defined for the current object (*pesho*), so JS does not need to traverse the prototype chain, because it finds the *name* property in the current object and we see *'Hi, my name is Pesho'*.
  
-##Performance
+### Performance
 
 So lets talk a little bit about performance.
 If you have a case where you have many levels of inheritance, for example:
