@@ -10,8 +10,8 @@ comments: true
 share: true  
 --- 
 
-Layering is one of the most common techniques that software developers use in their work. Layering is also very common for other computer fields beside software development, like *Networking* and *Hardware* for example. You could find layering examples in almost every field - Economics, Psychology, Medicine, Law and many more fields. 
-Layering is a way to separate things into smaller and easier to comprehend parts with witch you could work more easily. 
+Layering is one of the most common techniques that software developers use in their work. Layering is also very common for other computer fields beside software development, like *Networking* and *Hardware* for example. You could find layering examples in almost every field - Economics, Psychology, Medicine, Law and many more. 
+Layering is a way to separate things into smaller and easier to comprehend parts with witch you could work whit more easily. 
 
 ### Layering - Benefits
 
@@ -35,22 +35,22 @@ Breaking down system into layers has many benefits, like:
 
 ### Down of the layering - Client-Server systems
 
-This maybe is one of the first calcifications of systems where the layering technique has become the base of development. This architecture has become popular in the early 90s. Before that people did not think much of layering when they build their programs, because they don't need to perform many functions, that's why the complexity was low. With the evolution of technology the applications needed to evolve as well, which increases the complexity.
+This is maybe one of the first classifications of systems where the layering technique has become the base of development. This architecture has become popular in the early 90s. Before that people did not think much of layering when they build their programs, because they don't need to perform many functions, that's why the complexity was low. With the evolution of technology the applications needed to evolve as well, which increases the complexity.
 
 The **Client-Server** systems, were maybe one of the first examples of layering application. These where **two layered systems**. The client held the **UI** and the application logic and the **server** was usually a relational Database. 
 
-With the increasing of the requirements of the systems the client code become more complex with all the validations and business logic. This led to more messy code which was difficult to maintain so on the stage came the **three-layered systems**. In this approach you have **Presentation layer** for your UI a **Domain layer** for your business logic and a Data Source.
+With the increasing of the requirements of the systems the client code become more complex with all the validations and business logic. This led to more messy code which was difficult to maintain so on the stage came the **three-layered systems**. In this approach you have **Presentation layer** for your UI, a **Domain layer** for your business logic and a Data Source.
 
 ### The three base layers
 
 #### Presentation Layer
 
 This layer handles the interaction between the system and the user. This could be a simple command line, text-based menu system, or simple web interface. These days most common form of presentation layer is the rich-client interface. 
-For web applications most common form of rich-client interface are the **Rich Internet Applications** (RIA). This form of applications are mostly done using JavaScript, Adobe Flash, JavaFX and Microsoft Silverlight. JavaScript is the most common one. Others are slowly 'dying'. 
+For web applications most common form of rich-client interface are the **Rich Internet Applications** (RIA). This form of applications are mostly done using JavaScript, Adobe Flash, JavaFX and Microsoft Silverlight. JavaScript is the most common one, others are slowly 'dying'. 
 
 #### Domain Layer
 
-In most cases this layer is the most complex of the three. This is where all the application logic is, also called the **Business logic**. This layer is the link between the **Presentation** and the **Data Source**. This is where the user actions are interpreted and appropriate response is being returned. From here you validate and send, update or delete data from the Data Source.
+In most cases this layer is the most complex of the three. This is where all the application logic is. It is also called the **Business logic**. This layer is the link between the **Presentation** and the **Data Source**. This is where the user actions are interpreted and appropriate response is being returned. From here you validate and send, update or delete data from the Data Source.
 
 #### Data Source
 
