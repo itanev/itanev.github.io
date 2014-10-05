@@ -19,7 +19,7 @@ This design pattern is very common in software engineering. It gives the bases o
 
 The incompatibility of European and US plug outlets is just one example of a case where **Adapter pattern** is used in everyday life.
 
-[Outlet example]("http://itanev.github.io/images/AdapterPatternArticle/outletDiagram.png")
+![Outlet example](http://itanev.github.io/images/AdapterPatternArticle/outletDiagram.png)
 
 ### Adapter pattern in Software Engineering
 
