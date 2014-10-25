@@ -13,7 +13,7 @@ share: true
 This is one of the basic **Creational patterns** and one of the most used one in the software development. It is one of the **GoF patterns**. 
 Like most design patterns it has multiple different implementations, but in every variant the purpose is to hide the instantiation logic from the client and to get instances of objects through common interface.
 
-[Factory Pattern Diagram](http://itanev.github.io/images/FactoryPatternArticle/FactoryClientBlockDiagram.jpg)
+![Factory Pattern Diagram](http://itanev.github.io/images/FactoryPatternArticle/FactoryClientBlockDiagram.jpg)
 
 So lets think of a scenario in which the **Factory Pattern** could be of use. For example if we are building a game we might need multiple instances of game objects like characters, landscape or simply trees of rocks. 
 
