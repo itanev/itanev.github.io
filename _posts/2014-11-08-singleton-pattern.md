@@ -47,7 +47,7 @@ class Singleton
 }
 {% endhighlight %}
 
-The usage of this **Singleton** class is very simple.
+The usage of this **Singleton** class is very simple as well.
 
 {% highlight c# %}
 Singleton instance = Singleton.getInstance();
