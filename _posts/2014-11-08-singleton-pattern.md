@@ -14,9 +14,9 @@ share: true
 
 There are many examples for cases where you would need an object to be instantiated only once:
 
-*Managers - For example a *WindowManager*
-*Engines - For example *Dependency Resolver Engine*
-*Factories, Loggers, Configurators and etc.
+* Managers - For example a *WindowManager*
+* Engines - For example *Dependency Resolver Engine*
+* Factories, Loggers, Configurators and etc.
 
 ###Implementation
 
