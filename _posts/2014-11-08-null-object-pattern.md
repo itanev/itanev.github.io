@@ -13,7 +13,7 @@ share: true
 **Null Object Design Pattern** is one of the **Behavioral Patterns**. The Intent of the pattern is to provide an intelligent way to get a analog for a missing object that simply does nothing in the particular scenario. 
 We all know that there are scenarios that depend on the concrete type of the used object. The *if* statement is not very elegant solution to this problem but the **Null Object pattern** provides as a simple way to create a do nothing behaviour if the concrete scenario permits it.
 
-#Examples
+###Examples for usage of Null Object pattern
 
 The simplicity of **Null Object pattern** makes it ideal to use in variety of cases. I will give you an examples of few.
 
@@ -27,9 +27,10 @@ We could use the **Null Object pattern** in cases where we have old code that we
 
 The **Null Object pattern** could also be used in algorithms. For example if we have a tree and there is a case when the node does not exist, when we try to use it. It can be replaced with **Null Object**, instead of throwing some kind of exception. This is in case that the concrete scenario permits it.
 
-#Implementation
+###Implementation
 
 So the general way to implement the pattern is very straight forward. We have three main points in the implementation.
+
 * Some abstract class or interface
 * Some concrete implementations of the abstract class or interface
 * NullObject class that inherits the abstract class or interface and gives as the *do nothing* behaviour that is expected from this object.
