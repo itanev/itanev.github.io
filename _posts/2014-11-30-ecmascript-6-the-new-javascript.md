@@ -7,6 +7,7 @@ tags: [JavaScript, ECMAScript 6, new standard]
 image:
   feature: abstract-8.jpg
 comments: true
+link: http://www.2ality.com/2014/09/es6-modules-final.html  
 share: true  
 --- 
 
@@ -236,7 +237,7 @@ import MyClass from 'MyClass';
 let inst = new MyClass();
 {% endhighlight %}
 
-If you want more information on the subject you can refer to `ECMAScript 6 modules: the final syntax: http://url-you-want-linked`.
+If you want more information on the subject you can refer to `link: ECMAScript 6 modules: the final syntax`.
 
 ##Classes
 
