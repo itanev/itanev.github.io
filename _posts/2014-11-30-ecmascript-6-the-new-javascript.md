@@ -6,8 +6,7 @@ modified: 2014-11-30
 tags: [JavaScript, ECMAScript 6, new standard]
 image:
   feature: abstract-8.jpg
-comments: true
-link: http://www.2ality.com/2014/09/es6-modules-final.html  
+comments: true  
 share: true  
 --- 
 
@@ -237,7 +236,7 @@ import MyClass from 'MyClass';
 let inst = new MyClass();
 {% endhighlight %}
 
-If you want more information on the subject you can refer to `link: ECMAScript 6 modules: the final syntax`.
+If you want more information on the subject you can refer to [ECMAScript 6 modules: the final syntax](http://www.2ality.com/2014/09/es6-modules-final.html "ECMAScript 6 modules: the final syntax").
 
 ##Classes
 
@@ -333,3 +332,5 @@ var complex = (a, b) => {
     }
 }
 {% endhighlight %}    
+
+> You can play with the new features in ECMAScript 6 in the [ES6 Fiddle](http://www.es6fiddle.net/ "ES6 Fiddle").
