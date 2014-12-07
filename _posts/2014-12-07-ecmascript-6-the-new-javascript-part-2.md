@@ -20,71 +20,71 @@ This is the second part. You can see the First Part - [here](http://itanev.githu
 **Destructuring** is actually a syntactic sugar. Its purpose is to improve the quality of your code and to provide a way to do some things with less code. 
 You will see examples of its applications in the next section.
 	
-	####Destructuring Arrays
-	
-	We will see several different scenarios for extracting data from array using Destructuring.
-	
-	{% highlight javascript %}
-	//This is the most basic scenario, where you assign values of an array to variables.
-	var [x, y] = [1, 2];
-	
-	console.log(x); //1
-	console.log(y); //2
-	
-	//This is more complicated scenario, where you need only the first several values of an array assigned to variables and the rest assign to another variable.
-	let [x, y, ...rest] = [1, 2, 3, 4, 5];
-	
-	console.log(x); //1
-	console.log(y); //2
-	console.log(rest); //[3, 4, 5]
-	
-	//Lets see an example with nested arrays.
-	var [foo, [[bar], baz]] = [1, [[2], 3]];
-	console.log(foo); // 1
-	console.log(bar); // 2
-	console.log(baz); // 3
-	
-	//You could also skip values.
-	var [,,third] = ["foo", "bar", "baz"];
-	console.log(third); // "baz"
-	{% endhighlight %}  
-	
-	####Destructuring Objects
-	
-	Lets see how it is done in objects.
-	
-	{% highlight javascript %}
-	//This is the most basic example. 
-	var o = {p: 42, q: true};
-	var {p, q} = o;
+####Destructuring Arrays
 
-	console.log(p); // 42
-	console.log(q); // true 
+We will see several different scenarios for extracting data from array using Destructuring.
 
-	//Here we take the above example further by specifying the property we are binding to and the variable that will hold that property value.
-	var {p: foo, q: bar} = o;
+{% highlight javascript %}
+//This is the most basic scenario, where you assign values of an array to variables.
+var [x, y] = [1, 2];
 
-	console.log(foo); // 42
-	console.log(bar); // true
-	{% endhighlight %}
-	
-	####Destructuring Other types
-	
-	If you try Destructuring on types such as **null** or **undefined** like:
-	
-	{% highlight javascript %}
-	var [error] = null;
-	// TypeError: null has no properties
-	{% endhighlight %}
-	
-	You get **Type Error**.
-	However if you try it on more specific type properties such as **NaN** for example it will return **undefined**.
-	
-	{% highlight javascript %}
-	var [nan] = NaN;
-	console.log(nan); // undefined
-	{% endhighlight %}
-	
+console.log(x); //1
+console.log(y); //2
+
+//This is more complicated scenario, where you need only the first several values of an array assigned to variables and the rest assign to another variable.
+let [x, y, ...rest] = [1, 2, 3, 4, 5];
+
+console.log(x); //1
+console.log(y); //2
+console.log(rest); //[3, 4, 5]
+
+//Lets see an example with nested arrays.
+var [foo, [[bar], baz]] = [1, [[2], 3]];
+console.log(foo); // 1
+console.log(bar); // 2
+console.log(baz); // 3
+
+//You could also skip values.
+var [,,third] = ["foo", "bar", "baz"];
+console.log(third); // "baz"
+{% endhighlight %}  
+
+####Destructuring Objects
+
+Lets see how it is done in objects.
+
+{% highlight javascript %}
+//This is the most basic example. 
+var o = {p: 42, q: true};
+var {p, q} = o;
+
+console.log(p); // 42
+console.log(q); // true 
+
+//Here we take the above example further by specifying the property we are binding to and the variable that will hold that property value.
+var {p: foo, q: bar} = o;
+
+console.log(foo); // 42
+console.log(bar); // true
+{% endhighlight %}
+
+####Destructuring Other types
+
+If you try Destructuring on types such as **null** or **undefined** like:
+
+{% highlight javascript %}
+var [error] = null;
+// TypeError: null has no properties
+{% endhighlight %}
+
+You get **Type Error**.
+However if you try it on more specific type properties such as **NaN** for example it will return **undefined**.
+
+{% highlight javascript %}
+var [nan] = NaN;
+console.log(nan); // undefined
+{% endhighlight %}
+
 > This happens because Destructuring actually uses *ToObject* to convert the destructured value to object. Most types could be converted to **Objects** but **null** and **undefined** could not.
 
 ###Spread operator (...)
@@ -127,7 +127,7 @@ console.log(`Fifteen is ${a + b} and not ${2 * a + b}.`);
 // "Fifteen is 15 and not 20."
 {% endhighlight %}
 
-> Notice the **`** sign. All template strings must be enclosed in back-tick (` `).
+> Notice the ` sign. All template strings must be enclosed in back-tick (` `).
 
 Template Strings could be used, also to ease the work with multiline strings. We all know how painfull it was to work with multiline strings, until now.
 
