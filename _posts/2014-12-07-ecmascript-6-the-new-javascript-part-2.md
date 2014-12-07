@@ -127,7 +127,7 @@ console.log(`Fifteen is ${a + b} and not ${2 * a + b}.`);
 // "Fifteen is 15 and not 20."
 {% endhighlight %}
 
-> Notice the ` sign. All template strings must be enclosed in back-tick (` `).
+> Notice the \` sign. All template strings must be enclosed in back-tick (\` \`).
 
 Template Strings could be used, also to ease the work with multiline strings. We all know how painfull it was to work with multiline strings, until now.
 
