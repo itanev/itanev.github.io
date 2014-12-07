@@ -13,7 +13,7 @@ share: true
 In this post I will continue to explore the new things that will be available in **JavaScript** with the coming of the new standard. 
 I've decided to break the topic to several parts, because the new things are just, too many for one post.
 
-This is the second part. You can see the First Part - [here](http://itanev.github.io/ecmascript-6-the-new-javascript/ "here").
+This is the second part. You can see the First Part - [here](http://itanev.github.io/ecmascript-6-the-new-javascript-part-1/ "here").
 
 ###Destructuring
 
