@@ -12,7 +12,7 @@ share: true
 
 The new things in C# 6 are mainly syntactic sugar. They just build on top of the existing IL without creating entirely new features. C# 6 aims to make code writing easier, more clean and even more convenient for developers.
 With the new compiler (**Roslyn**) the performance will improve and recently Microsoft made .NET core open source, so there is a bright future for this platform.
-C# 6 is supported only in VisualStudio 2015 so this is the one you will need if you want to try the new things out.
+C# 6 is supported only in Visual Studio 2015 so this is the one you will need if you want to try the new things out.
 
 In this post I will go through ten of the new features, but there are at least another dozen of new things that you can find in MSDN.
 
