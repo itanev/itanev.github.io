@@ -47,10 +47,10 @@ var withInterpolation = $"{p.Name,20} is {p.Age:D3} year{{s}} old";
 So, why do we need this, aside from the fact that it is totally cooler than String.Format ?
 
 According to Roslyn codeplex there are several reasons to creating String interpolation:
-* It is a full replacement from String.Format, with culture and everything, to solve the mess that you find when there are too many positional arguments
-* It provides a quick-and-dirty way to do string concatenation in the invariant-culture for use in composing strings together to pass to other APIs
-* It provides an easy way to stick in identifiers
-* It is an easier way to teach Coding 101 – don’t want to start beginners on String.Format
+*It is a full replacement from String.Format, with culture and everything, to solve the mess that you find when there are too many positional arguments
+*It provides a quick-and-dirty way to do string concatenation in the invariant-culture for use in composing strings together to pass to other APIs
+*It provides an easy way to stick in identifiers
+*It is an easier way to teach Coding 101 – don’t want to start beginners on String.Format
 
 ###Null-conditional operator
 
@@ -101,13 +101,13 @@ catch (MyException e) if (myfilter(e))
 This time the goal is to improve the debugging experience. It makes a difference when a top level exception is not cached anywhere and is going to kill the application - but it is relevant of what Debug → Exceptions says.
 
 To understand it try the following in Visual Studio:
-* Create a new Console application
-* In it, write some code that throws an exception (and do not catch it at all).
-* Make sure that exception type is not ticked in Debug → Exceptions.
-* Run it. The debugger will halt at the exception.
-* Stop the program again.
-* Now write a try/catch with a throw; statement inside the catch such that the above exception is caught and then rethrown.
-* Run it again. This time, the debugger will halt at the throw; statement, not at the original exception.
+*Create a new Console application
+*In it, write some code that throws an exception (and do not catch it at all).
+*Make sure that exception type is not ticked in Debug → Exceptions.
+*Run it. The debugger will halt at the exception.
+*Stop the program again.
+*Now write a try/catch with a throw; statement inside the catch such that the above exception is caught and then rethrown.
+*Run it again. This time, the debugger will halt at the throw; statement, not at the original exception.
 
 ###Await in catch and finally blocks
 
