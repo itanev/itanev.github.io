@@ -3,7 +3,7 @@ layout: post
 title: Kanban - What is it ?
 description: "In this post I will explain what is Kanban, how to use it, what are its benefits and what are its disadvantages"
 modified: 2014-09-07
-tags: [kanban, agile, technique, process, improvement, improvement to agile, improvement to scrum, kanban board, kanban advantages, kanban disadvantages, what is kanban]
+tags: [Kanban, Agile, Technique, Process, Improvement, Improvement to Agile, Improvement to Scrum, Kanban Board, Kanban advantages, Kanban disadvantages, What is kanban]
 image:
   feature: abstract-1.jpg
 comments: true

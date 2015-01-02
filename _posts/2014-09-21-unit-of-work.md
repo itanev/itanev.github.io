@@ -3,7 +3,7 @@ layout: post
 title: Unit Of Work
 description: "In this post I will try to explain what is Unit Of Work, what problem it solves and how to implement it using PHP. I will provide code examples and talk about alternative ways to implement some of the components."
 modified: 2014-09-21
-tags: [Unit Of Work, Design Pattern, Behavioral Patterns, pattern, Databases, Object-Relational pattern, Identity Map, Priority Queue]
+tags: [Unit Of Work, Design Patterns, Behavioral Patterns, Databases, Object-Relational pattern, Identity Map, Priority Queue]
 image:
   feature: abstract-10.jpg
 comments: true

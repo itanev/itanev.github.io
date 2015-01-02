@@ -3,7 +3,7 @@ layout: post
 title: Template Design Pattern
 description: "In this post I will try to explain what is the Template Method, what problem it solves and how to implement it using Java."
 modified: 2014-11-21
-tags: [Template Design Pattern, Design Pattern, Behavioral Patterns, pattern]
+tags: [Template Design Pattern, Design Patterns, Behavioral Patterns]
 image:
   feature: abstract-5.jpg
 comments: true

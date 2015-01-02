@@ -3,7 +3,7 @@ layout: post
 title: Null Object Pattern
 description: "In this post I would try to explain what is the intent of Null Object Pattern and illustrate his usage with examples."
 modified: 2014-11-08
-tags: [Null Object Pattern, Design Pattern, Behavioral Patterns, C#]
+tags: [Null Object Pattern, Design Patterns, Behavioral Patterns, C#]
 image:
   feature: abstract-2.jpg
 comments: true

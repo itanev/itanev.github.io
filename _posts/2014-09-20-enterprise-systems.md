@@ -3,7 +3,7 @@ layout: post
 title: Enterprise Systems - Overview
 description: "In this post I will describe what is Enterprise System, the kinds of Enterprise Systems and the different perspectives that we need to consider when designing an Enterprise System."
 modified: 2014-09-20
-tags: [Enterprise, System, Enterprise Systems, enterprise systems overview, enterprise overview, kinds of enterprise applications, perspective of enterprise applications]
+tags: [Enterprise, System, Enterprise Systems, Kinds of enterprise applications, Perspective of enterprise applications]
 image:
   feature: abstract-2.jpg
 comments: true

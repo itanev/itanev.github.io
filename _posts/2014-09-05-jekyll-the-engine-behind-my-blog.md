@@ -3,7 +3,7 @@ layout: post
 title: Jekyll - The engine behind my blog
 description: "In this post I will explain what is Jekyll and some of its basics."
 modified: 2014-09-05
-tags: [jekyll, blog, engine, parser, github pages]
+tags: [Jekyll, Blog, Engine, Parser, GitHub pages]
 image:
   feature: abstract-3.jpg
 comments: true

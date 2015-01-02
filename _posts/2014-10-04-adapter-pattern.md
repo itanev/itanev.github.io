@@ -3,7 +3,7 @@ layout: post
 title: Adapter pattern
 description: "In this post I would try to explain what is Adapter pattern and illustrate his usage with example using AngularJS."
 modified: 2014-10-04
-tags: [Adapter Pattern, Design Pattern, Structural Design Patterns, javascript, js, AngularJS]
+tags: [Adapter Pattern, Design Patterns, Structural Design Patterns, JavaScript, AngularJS]
 image:
   feature: abstract-3.jpg
 comments: true

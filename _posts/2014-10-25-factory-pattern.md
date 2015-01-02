@@ -3,7 +3,7 @@ layout: post
 title: Factory Design Pattern
 description: "In this post I will try to explain what is Factory design pattern, what problem it solves and how to implement."
 modified: 2014-10-25
-tags: [Factory Design Pattern, Design Pattern, Creational Patterns, pattern]
+tags: [Factory Design Pattern, Design Patterns, Creational Patterns]
 image:
   feature: abstract-7.jpg
 comments: true

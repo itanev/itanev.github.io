@@ -3,7 +3,7 @@ layout: post
 title: Flyweight Pattern
 description: "In this post I would try to explain what is Flyweight Pattern and illustrate his usage with real world example."
 modified: 2014-11-02
-tags: [Flyweight Pattern, Design Pattern, Structural Design Patterns, C#]
+tags: [Flyweight Pattern, Design Patterns, Structural Design Patterns, C#]
 image:
   feature: abstract-1.jpg
 comments: true

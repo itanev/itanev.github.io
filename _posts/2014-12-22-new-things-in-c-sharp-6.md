@@ -3,7 +3,7 @@ layout: post
 title: New things in C# 6
 description: "In this post we will take a look at the C# 6. What are the new things and how they are used. We will look at only ten of them."
 modified: 2014-12-22
-tags: [C# 6, Roslyn, new features, syntactic sugar]
+tags: [C# 6, Roslyn, New features, Syntactic sugar]
 image:
   feature: abstract-10.jpg
 comments: true  

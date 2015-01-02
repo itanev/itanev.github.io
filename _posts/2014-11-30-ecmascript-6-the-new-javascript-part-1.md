@@ -3,7 +3,7 @@ layout: post
 title: ECMAScript 6 - The new JavaScript Part 1
 description: "In this first part I will review some of the new features that will came with the ECMAScript 6 standard."
 modified: 2014-11-30
-tags: [JavaScript, ECMAScript 6, new standard]
+tags: [JavaScript, ECMAScript 6, New standard, New features, Syntactic sugar]
 image:
   feature: abstract-8.jpg
 comments: true  

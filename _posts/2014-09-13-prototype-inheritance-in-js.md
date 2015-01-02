@@ -3,7 +3,7 @@ layout: post
 title: Prototype Inheritance in JavaScript
 description: "In this post I will explain what is Prototype Inheritance in JavaScript and what are its particularities"
 modified: 2014-09-13
-tags: [inheritance, javascript, js, prototype, prototype js, prototype javascript, prototype inheritance, inheritance in js, inheritance in javascript]
+tags: [Inheritance, JavaScript, Prototype, Prototype inheritance, Inheritance in JavaScript]
 image:
   feature: abstract-4.jpg
 comments: true

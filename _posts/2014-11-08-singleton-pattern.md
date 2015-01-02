@@ -3,7 +3,7 @@ layout: post
 title: Singleton Pattern
 description: "In this post I would try to explain what is the intent of Singleton Pattern and illustrate his usage with examples and implementation."
 modified: 2014-11-08
-tags: [Singleton Pattern, Design Pattern, Creational Patterns, C#]
+tags: [Singleton Pattern, Design Patterns, Creational Patterns, C#]
 image:
   feature: abstract-4.jpg
 comments: true
